@@ -254,9 +254,6 @@ ax.set_xticklabels(scheme_names)
 ax.set_ylabel('Avg. Migration Time (ms)')
 ax.set_ylim([0, 185])
 ax.grid(True, axis='y', alpha=0.35, ls='--', lw=0.6)
-for bar, val in zip(bars, avg_mig_times):
-    ax.text(bar.get_x() + bar.get_width() / 2.0, val + 5,
-            f'{val:.1f}', ha='center', va='bottom', fontsize=9)
 plt.tight_layout()
 plt.savefig('Images/avg_mig_time.pdf', bbox_inches='tight')
 plt.close()

@@ -258,7 +258,7 @@ dimensions in a unified and theoretically grounded manner.
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=0.92\columnwidth]{Images/Sys_model14_CR1.pdf}
+  \includegraphics[width=0.92\columnwidth]{Images/Sys_model13.pdf}
   \caption{Three-tier SDN-based edge network architecture. The SDN
            controller maintains a global network view and coordinates
            service placement, migration, and routing across the fog
@@ -608,22 +608,22 @@ across 60 time slots each.
 
 \subsection{Latency and Energy Performance}
 
-\begin{figure}[t]
+\begin{figure*}[t]
   \centering
-  \begin{subfigure}[b]{0.48\columnwidth}
+  \begin{subfigure}[b]{0.48\textwidth}
     \includegraphics[width=\linewidth]{Images/latency_comparison.pdf}
-    \caption{Average task latency.}
+    \caption{Average task latency vs.\ number of IoT devices.}
     \label{fig:latency}
   \end{subfigure}\hfill
-  \begin{subfigure}[b]{0.48\columnwidth}
+  \begin{subfigure}[b]{0.48\textwidth}
     \includegraphics[width=\linewidth]{Images/energy_comparison.pdf}
-    \caption{Energy consumption.}
+    \caption{Energy consumption per task vs.\ number of IoT devices.}
     \label{fig:energy}
   \end{subfigure}
   \caption{Latency and energy as functions of the number of IoT devices.
            Shaded bands denote one standard deviation across replications.}
   \label{fig:latency_energy}
-\end{figure}
+\end{figure*}
 
 Fig.~\ref{fig:latency_energy} presents average task latency and energy
 consumption as the number of IoT devices grows from 50 to 300.
@@ -650,21 +650,22 @@ association distances maintained through timely migration.
 
 \subsection{SLA Compliance and Migration Efficiency}
 
-\begin{figure}[t]
+\begin{figure*}[t]
   \centering
-  \begin{subfigure}[b]{0.48\columnwidth}
+  \begin{subfigure}[b]{0.48\textwidth}
     \includegraphics[width=\linewidth]{Images/sla_violation.pdf}
-    \caption{SLA violation rate.}
+    \caption{SLA violation rate vs.\ number of IoT devices.}
     \label{fig:sla}
   \end{subfigure}\hfill
-  \begin{subfigure}[b]{0.48\columnwidth}
+  \begin{subfigure}[b]{0.48\textwidth}
     \includegraphics[width=\linewidth]{Images/migrations_time.pdf}
-    \caption{Migrations per time slot ($N=200$).}
+    \caption{Service migrations per time slot ($N=200$).}
     \label{fig:mig_time}
   \end{subfigure}
-  \caption{SLA violation rate and service migration count over time.}
+  \caption{SLA violation rate and service migration count over time.
+           Shaded band in (a) denotes one standard deviation.}
   \label{fig:sla_mig}
-\end{figure}
+\end{figure*}
 
 The SLA violation rate in Fig.~\ref{fig:sla_mig}a quantifies the
 fraction of tasks whose end-to-end latency exceeds the 100\,ms deadline.
