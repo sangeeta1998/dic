@@ -1,0 +1,11465 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: costban.eps
+%%Creator: gnuplot 5.2 patchlevel 8
+%%CreationDate: Thu Dec 30 09:55:54 2021
+%%DocumentFonts: (atend)
+%%BoundingBox: 50 50 374 276
+%%EndComments
+%%BeginProlog
+/gnudict 256 dict def
+gnudict begin
+%
+% The following true/false flags may be edited by hand if desired.
+% The unit line width and grayscale image gamma correction may also be changed.
+%
+/Color true def
+/Blacktext false def
+/Solid false def
+/Dashlength 1 def
+/Landscape false def
+/Level1 false def
+/Level3 false def
+/Rounded false def
+/ClipToBoundingBox false def
+/SuppressPDFMark false def
+/TransparentPatterns false def
+/gnulinewidth 5.000 def
+/userlinewidth gnulinewidth def
+/Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
+%
+/vshift -106 def
+/dl1 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
+} def
+/dl2 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul add } if
+} def
+/hpt_ 31.5 def
+/vpt_ 31.5 def
+/hpt hpt_ def
+/vpt vpt_ def
+/doclip {
+  ClipToBoundingBox {
+    newpath 50 50 moveto 374 50 lineto 374 276 lineto 50 276 lineto closepath
+    clip
+  } if
+} def
+%
+% Gnuplot Prolog Version 5.2 (Dec 2017)
+%
+%/SuppressPDFMark true def
+%
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/N {newpath moveto} bind def
+/Z {closepath} bind def
+/C {setrgbcolor} bind def
+/f {rlineto fill} bind def
+/g {setgray} bind def
+/Gshow {show} def   % May be redefined later in the file to support UTF-8
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow {currentpoint stroke M 0 vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
+  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
+/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
+ {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def
+/BL {stroke userlinewidth 2 mul setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/AL {stroke userlinewidth 2 div setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/UL {dup gnulinewidth mul /userlinewidth exch def
+	dup 1 lt {pop 1} if 10 mul /udl exch def} def
+/PL {stroke userlinewidth setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+3.8 setmiterlimit
+% Classic Line colors (version 5.0)
+/LCw {1 1 1} def
+/LCb {0 0 0} def
+/LCa {0 0 0} def
+/LC0 {1 0 0} def
+/LC1 {0 1 0} def
+/LC2 {0 0 1} def
+/LC3 {1 0 1} def
+/LC4 {0 1 1} def
+/LC5 {1 1 0} def
+/LC6 {0 0 0} def
+/LC7 {1 0.3 0} def
+/LC8 {0.5 0.5 0.5} def
+% Default dash patterns (version 5.0)
+/LTB {BL [] LCb DL} def
+/LTw {PL [] 1 setgray} def
+/LTb {PL [] LCb DL} def
+/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
+/LT0 {PL [] LC0 DL} def
+/LT1 {PL [2 dl1 3 dl2] LC1 DL} def
+/LT2 {PL [1 dl1 1.5 dl2] LC2 DL} def
+/LT3 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC3 DL} def
+/LT4 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [4 dl1 2 dl2] LC5 DL} def
+/LT6 {PL [1.5 dl1 1.5 dl2 1.5 dl1 1.5 dl2 1.5 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC8 DL} def
+/SL {[] 0 setdash} def
+/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
+/Dia {stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  Pnt} def
+/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+ } def
+/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  Pnt} def
+/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke} def
+/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  Pnt} def
+/Star {2 copy Pls Crs} def
+/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath fill} def
+/TriUF {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath fill} def
+/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke
+  Pnt} def
+/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath fill} def
+/DiaF {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath fill} def
+/Pent {stroke [] 0 setdash 2 copy gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore Pnt} def
+/PentF {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath fill grestore} def
+/Circle {stroke [] 0 setdash 2 copy
+  hpt 0 360 arc stroke Pnt} def
+/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def
+/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def
+/C1 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C2 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C3 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C4 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C5 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc
+	2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc} bind def
+/C6 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C7 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C8 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C9 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 450 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill
+	2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C11 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C12 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C13 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C14 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 360 arc closepath fill
+	vpt 0 360 arc} bind def
+/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+	neg 0 rlineto closepath} bind def
+/Square {dup Rec} bind def
+/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def
+/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def
+/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def
+/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def
+/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill
+	exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def
+/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill
+	Bsquare} bind def
+/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill
+	Bsquare} bind def
+/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def
+/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def
+/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def
+/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def
+/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def
+/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def
+/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def
+/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def
+/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def
+/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def
+/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def
+/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def
+/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def
+/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def
+/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def
+/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def
+/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def
+/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def
+/DiaE {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke} def
+/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke} def
+/TriUE {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke} def
+/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke} def
+/PentE {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore} def
+/CircE {stroke [] 0 setdash 
+  hpt 0 360 arc stroke} def
+/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
+/DiaW {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V Opaque stroke} def
+/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V Opaque stroke} def
+/TriUW {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V Opaque stroke} def
+/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V Opaque stroke} def
+/PentW {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  Opaque stroke grestore} def
+/CircW {stroke [] 0 setdash 
+  hpt 0 360 arc Opaque stroke} def
+/BoxFill {gsave Rec 1 setgray fill grestore} def
+/Density {
+  /Fillden exch def
+  currentrgbcolor
+  /ColB exch def /ColG exch def /ColR exch def
+  /ColR ColR Fillden mul Fillden sub 1 add def
+  /ColG ColG Fillden mul Fillden sub 1 add def
+  /ColB ColB Fillden mul Fillden sub 1 add def
+  ColR ColG ColB setrgbcolor} def
+/BoxColFill {gsave Rec PolyFill} def
+/PolyFill {gsave Density fill grestore grestore} def
+/h {rlineto rlineto rlineto closepath gsave fill grestore stroke} bind def
+%
+% PostScript Level 1 Pattern Fill routine for rectangles
+% Usage: x y w h s a XX PatternFill
+%	x,y = lower left corner of box to be filled
+%	w,h = width and height of box
+%	  a = angle in degrees between lines and x-axis
+%	 XX = 0/1 for no/yes cross-hatch
+%
+/PatternFill {gsave /PFa [ 9 2 roll ] def
+  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
+  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
+  currentlinewidth 0.5 mul setlinewidth
+  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
+  0 0 M PFa 5 get rotate PFs -2 div dup translate
+  0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 M 0 PFs V} for
+  0 PFa 6 get ne {
+	0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 2 1 roll M PFs 0 V} for
+ } if
+  stroke grestore} def
+%
+/languagelevel where
+ {pop languagelevel} {1} ifelse
+dup 2 lt
+	{/InterpretLevel1 true def
+	 /InterpretLevel3 false def}
+	{/InterpretLevel1 Level1 def
+	 2 gt
+	    {/InterpretLevel3 Level3 def}
+	    {/InterpretLevel3 false def}
+	 ifelse }
+ ifelse
+%
+% PostScript level 2 pattern fill definitions
+%
+/Level2PatternFill {
+/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}
+	bind def
+/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+>> matrix makepattern
+/Pat1 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke
+	0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}
+>> matrix makepattern
+/Pat2 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L
+	8 8 L 8 0 L 0 0 L fill}
+>> matrix makepattern
+/Pat3 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L
+	0 12 M 12 0 L stroke}
+>> matrix makepattern
+/Pat4 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L
+	0 -4 M 12 8 L stroke}
+>> matrix makepattern
+/Pat5 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L
+	0 12 M 8 -4 L 4 12 M 10 0 L stroke}
+>> matrix makepattern
+/Pat6 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L
+	0 -4 M 8 12 L 4 -4 M 10 8 L stroke}
+>> matrix makepattern
+/Pat7 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L
+	12 0 M -4 8 L 12 4 M 0 10 L stroke}
+>> matrix makepattern
+/Pat8 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L
+	-4 0 M 12 8 L -4 4 M 8 10 L stroke}
+>> matrix makepattern
+/Pat9 exch def
+/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def
+/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def
+/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def
+/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def
+/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def
+/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def
+/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def
+} def
+%
+%
+%End of PostScript Level 2 code
+%
+/PatternBgnd {
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+} def
+%
+% Substitute for Level 2 pattern fill codes with
+% grayscale if Level 2 support is not selected.
+%
+/Level1PatternFill {
+/Pattern1 {0.250 Density} bind def
+/Pattern2 {0.500 Density} bind def
+/Pattern3 {0.750 Density} bind def
+/Pattern4 {0.125 Density} bind def
+/Pattern5 {0.375 Density} bind def
+/Pattern6 {0.625 Density} bind def
+/Pattern7 {0.875 Density} bind def
+} def
+%
+% Now test for support of Level 2 code
+%
+Level1 {Level1PatternFill} {Level2PatternFill} ifelse
+%
+/Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
+dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
+currentdict end definefont pop
+%
+/Metrics {ExtendTextBox Gswidth} def
+/Lwidth {currentpoint stroke M 0 vshift R Metrics} def
+/Rwidth {currentpoint stroke M dup stringwidth pop neg vshift R Metrics} def
+/Cwidth {currentpoint stroke M dup stringwidth pop -2 div vshift R Metrics} def
+/GLwidth {currentpoint stroke M 0 vshift R {ExtendTextBox} forall} def
+/GRwidth {currentpoint stroke M dup Gwidth vshift R {ExtendTextBox} forall} def
+/GCwidth {currentpoint stroke M dup Gwidth 2 div vshift R {ExtendTextBox} forall} def
+/GLwidth2 {0 Gwidth AddGlyphWidth} def
+/GRwidth2 {Gwidth -1 mul 0 AddGlyphWidth} def
+/GCwidth2 {Gwidth 2 div dup -1 mul AddGlyphWidth} def
+/AddGlyphWidth { dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+                 dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse } def
+/MFshow {
+   { dup 5 get 3 ge
+     { 5 get 3 eq {gsave} {grestore} ifelse }
+     {dup dup 0 get findfont exch 1 get scalefont setfont
+     [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6
+     get exch 4 get {textshow} {Metrics pop 0 R} ifelse }if dup 5 get 0 eq
+     {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5
+     get 1 eq {dup 2 get exch dup 3 get exch 6 get Gswidth pop -2 div
+     dup 0 R} {dup 6 get Gswidth pop -2 div 0 R 6 get
+     textshow 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
+     pop aload pop M} ifelse }ifelse }ifelse }
+     ifelse }
+   forall} def
+/Gswidth {dup type /stringtype eq {stringwidth} {pop (n) stringwidth} ifelse} def
+/MFwidth {0 exch { dup 5 get 3 ge { 5 get 3 eq { 0 } { pop } ifelse }
+ {dup 3 get{dup dup 0 get findfont exch 1 get scalefont setfont
+     6 get Gswidth pop add} {pop} ifelse} ifelse} forall} def
+/MLshow { currentpoint stroke M
+  0 exch R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MRshow { currentpoint stroke M
+  exch dup MFwidth neg 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MCshow { currentpoint stroke M
+  exch dup MFwidth -2 div 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/XYsave    { [( ) 1 2 true false 3 ()] } bind def
+/XYrestore { [( ) 1 2 true false 4 ()] } bind def
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (costban.eps)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 5.2 patchlevel 8)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Thu Dec 30 09:55:54 2021)
+  /DOCINFO pdfmark
+end
+} ifelse
+%
+% Support for boxed text - Ethan A Merritt Sep 2016
+%
+/InitTextBox { userdict /TBy2 3 -1 roll put userdict /TBx2 3 -1 roll put
+           userdict /TBy1 3 -1 roll put userdict /TBx1 3 -1 roll put
+	   /Boxing true def } def
+/ExtendTextBox { dup type /stringtype eq
+    { Boxing { gsave dup false charpath pathbbox
+      dup TBy2 gt {userdict /TBy2 3 -1 roll put} {pop} ifelse
+      dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+      dup TBy1 lt {userdict /TBy1 3 -1 roll put} {pop} ifelse
+      dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse
+      grestore } if }
+    {} ifelse} def
+/PopTextBox { newpath TBx1 TBxmargin sub TBy1 TBymargin sub M
+               TBx1 TBxmargin sub TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy1 TBymargin sub L closepath } def
+/DrawTextBox { PopTextBox stroke /Boxing false def} def
+/FillTextBox { gsave PopTextBox fill grestore /Boxing false def} def
+0 0 0 0 InitTextBox
+/TBxmargin 20 def
+/TBymargin 20 def
+/Boxing false def
+/textshow { ExtendTextBox Gshow } def
+%
+end
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.050 0.050 scale
+0 setgray
+newpath
+(Times-Roman) findfont 320 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {BackgroundColor C 1.000 0 0 6480.00 4536.00 BoxColFill} if
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 640 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 640 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 640 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 200)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+/vshift -106 def
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 647 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 647 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 647 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 204)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 653 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 653 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 653 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 208)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 660 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 660 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 660 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 212)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 666 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 666 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 666 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 216)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 673 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 673 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 673 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 220)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 679 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 679 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 679 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 224)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 686 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 686 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 686 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 228)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 692 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 692 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 692 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 232)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 699 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 699 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 699 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 236)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 705 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 705 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 705 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 240)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 712 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 712 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 712 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 244)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 718 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 718 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 718 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 248)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 725 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 725 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 725 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 252)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 731 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 731 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 731 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 256)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 738 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 738 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 738 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 260)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 744 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 744 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 744 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 264)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 751 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 751 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 751 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 268)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 757 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 757 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 757 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 272)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 764 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 764 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 764 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 276)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 770 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 770 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 770 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 280)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 777 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 777 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 777 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 284)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 783 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 783 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 783 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 288)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 790 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 790 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 790 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 292)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 796 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 796 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 796 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 296)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 803 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 803 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 803 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 300)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 809 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 809 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 809 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 304)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 816 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 816 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 816 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 308)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 822 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 822 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 822 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 312)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 829 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 829 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 829 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 316)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 835 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 835 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 835 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 320)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 842 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 842 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 842 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 324)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 848 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 848 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 848 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 328)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 855 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 855 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 855 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 332)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 861 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 861 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 861 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 336)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 868 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 868 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 868 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 340)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 874 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 874 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 874 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 344)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 881 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 881 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 881 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 348)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 887 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 887 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 887 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 352)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 894 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 894 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 894 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 356)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 900 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 900 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 900 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 360)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 907 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 907 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 907 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 364)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 913 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 913 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 913 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 368)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 920 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 920 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 920 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 372)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 926 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 926 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 926 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 376)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 933 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 933 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 933 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 380)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 939 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 939 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 939 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 384)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 946 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 946 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 946 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 388)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 952 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 952 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 952 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 392)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 959 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 959 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 959 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 396)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 966 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 966 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 966 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 400)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 972 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 972 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 972 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 404)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 979 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 979 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 979 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 408)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 985 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 985 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 985 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 412)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 992 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 992 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 992 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 416)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 998 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 998 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 998 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 420)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1005 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1005 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1005 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 424)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1011 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1011 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1011 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 428)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1018 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1018 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1018 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 432)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1024 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1024 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1024 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 436)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1031 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1031 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1031 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 440)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1037 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1037 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1037 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 444)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1044 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1044 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1044 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 448)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1050 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1050 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1050 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 452)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1057 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1057 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1057 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 456)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1063 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1063 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1063 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 460)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1070 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1070 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1070 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 464)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1076 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1076 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1076 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 468)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1083 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1083 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1083 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 472)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1089 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1089 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1089 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 476)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1096 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1096 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1096 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 480)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1102 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1102 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1102 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 484)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1109 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1109 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1109 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 488)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1115 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1115 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1115 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 492)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1122 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1122 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1122 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 496)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1128 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1128 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1128 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 500)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1135 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1135 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1135 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 504)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1141 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1141 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1141 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 508)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1148 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1148 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1148 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 512)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1154 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1154 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1154 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 516)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1161 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1161 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1161 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 520)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1167 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1167 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1167 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 524)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1174 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1174 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1174 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 528)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1180 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1180 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1180 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 532)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1187 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1187 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1187 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 536)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1193 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1193 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1193 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 540)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1200 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1200 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1200 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 544)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1206 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1206 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1206 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 548)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1213 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1213 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1213 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 552)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1219 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1219 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1219 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 556)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1226 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1226 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1226 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 560)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1232 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1232 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1232 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 564)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1239 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1239 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1239 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 568)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1245 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1245 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1245 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 572)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1252 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1252 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1252 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 576)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1258 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1258 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1258 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 580)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1265 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1265 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1265 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 584)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1271 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1271 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1271 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 588)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1278 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1278 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1278 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 592)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1284 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1284 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1284 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 596)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1291 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1291 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1291 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 600)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1298 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1298 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1298 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 604)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1304 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1304 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1304 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 608)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1311 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1311 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1311 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 612)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1317 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1317 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1317 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 616)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1324 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1324 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1324 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 620)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1330 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1330 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1330 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 624)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1337 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1337 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1337 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 628)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1343 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1343 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1343 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 632)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1350 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1350 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1350 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 636)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1356 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1356 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1356 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 640)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1363 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1363 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1363 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 644)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1369 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1369 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1369 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 648)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1376 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1376 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1376 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 652)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1382 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1382 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1382 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 656)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1389 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1389 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1389 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 660)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1395 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1395 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1395 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 664)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1402 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1402 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1402 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 668)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1408 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1408 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1408 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 672)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1415 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1415 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1415 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 676)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1421 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1421 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1421 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 680)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1428 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1428 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1428 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 684)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1434 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1434 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1434 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 688)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1441 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1441 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1441 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 692)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1447 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1447 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1447 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 696)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1454 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1454 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1454 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 700)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1460 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1460 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1460 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 704)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1467 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1467 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1467 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 708)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1473 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1473 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1473 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 712)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1480 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1480 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1480 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 716)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1486 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1486 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1486 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 720)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1493 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1493 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1493 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 724)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1499 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1499 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1499 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 728)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1506 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1506 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1506 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 732)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1512 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1512 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1512 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 736)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1519 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1519 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1519 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 740)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1525 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1525 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1525 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 744)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1532 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1532 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1532 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 748)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1538 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1538 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1538 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 752)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1545 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1545 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1545 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 756)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1551 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1551 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1551 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 760)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1558 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1558 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1558 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 764)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1564 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1564 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1564 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 768)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1571 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1571 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1571 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 772)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1577 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1577 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1577 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 776)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1584 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1584 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1584 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 780)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1590 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1590 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1590 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 784)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1597 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1597 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1597 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 788)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1603 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1603 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1603 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 792)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1610 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1610 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1610 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 796)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1617 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1617 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1617 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 800)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1623 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1623 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1623 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 804)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1630 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1630 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1630 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 808)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1636 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1636 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1636 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 812)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1643 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1643 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1643 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 816)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1649 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1649 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1649 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 820)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1656 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1656 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1656 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 824)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1662 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1662 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1662 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 828)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1669 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1669 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1669 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 832)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1675 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1675 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1675 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 836)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1682 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1682 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1682 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 840)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1688 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1688 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1688 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 844)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1695 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1695 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1695 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 848)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1701 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1701 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1701 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 852)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1708 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1708 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1708 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 856)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1714 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1714 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1714 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 860)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1721 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1721 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1721 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 864)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1727 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1727 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1727 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 868)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1734 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1734 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1734 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 872)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1740 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1740 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1740 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 876)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1747 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1747 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1747 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 880)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1753 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1753 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1753 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 884)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1760 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1760 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1760 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 888)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1766 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1766 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1766 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 892)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1773 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1773 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1773 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 896)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1779 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1779 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1779 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 900)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1786 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1786 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1786 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 904)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1792 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1792 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1792 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 908)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1799 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1799 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1799 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 912)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1805 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1805 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1805 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 916)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1812 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1812 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1812 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 920)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1818 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1818 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1818 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 924)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1825 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1825 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1825 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 928)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1831 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1831 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1831 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 932)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1838 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1838 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1838 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 936)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1844 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1844 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1844 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 940)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1851 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1851 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1851 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 944)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1857 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1857 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1857 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 948)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1864 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1864 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1864 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 952)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1870 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1870 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1870 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 956)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1877 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1877 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1877 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 960)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1883 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1883 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1883 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 964)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1890 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1890 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1890 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 968)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1896 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1896 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1896 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 972)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1903 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1903 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1903 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 976)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1909 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1909 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1909 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 980)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1916 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1916 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1916 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 984)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1922 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1922 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1922 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 988)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1929 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1929 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1929 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 992)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1935 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1935 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1935 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 996)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1942 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1942 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1942 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1000)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1949 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1949 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1949 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1004)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1955 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1955 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1955 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1008)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1962 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1962 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1962 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1012)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1968 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1968 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1968 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1016)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1975 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1975 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1975 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1020)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1981 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1981 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1981 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1024)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1988 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1988 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1988 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1028)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 1994 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 1994 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 1994 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1032)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2001 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2001 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2001 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1036)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2007 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2007 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2007 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1040)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2014 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2014 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2014 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1044)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2020 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2020 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2020 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1048)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2027 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2027 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2027 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1052)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2033 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2033 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2033 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1056)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2040 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2040 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2040 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1060)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2046 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2046 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2046 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1064)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2053 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2053 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2053 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1068)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2059 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2059 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2059 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1072)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2066 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2066 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2066 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1076)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2072 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2072 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2072 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1080)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2079 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2079 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2079 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1084)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2085 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2085 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2085 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1088)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2092 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2092 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2092 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1092)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2098 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2098 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2098 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1096)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2105 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2105 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2105 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1100)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2111 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2111 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2111 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1104)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2118 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2118 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2118 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1108)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2124 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2124 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2124 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1112)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2131 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2131 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2131 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1116)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2137 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2137 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2137 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1120)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2144 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2144 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2144 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1124)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2150 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2150 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2150 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1128)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2157 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2157 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2157 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1132)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2163 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2163 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2163 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1136)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2170 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2170 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2170 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1140)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2176 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2176 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2176 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1144)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2183 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2183 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2183 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1148)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2189 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2189 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2189 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1152)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2196 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2196 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2196 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1156)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2202 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2202 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2202 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1160)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2209 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2209 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2209 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1164)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2215 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2215 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2215 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1168)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2222 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2222 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2222 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1172)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2228 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2228 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2228 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1176)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2235 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2235 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2235 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1180)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2241 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2241 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2241 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1184)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2248 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2248 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2248 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1188)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2254 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2254 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2254 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1192)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2261 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2261 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2261 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1196)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2268 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2268 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2268 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1200)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2274 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2274 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2274 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1204)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2281 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2281 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2281 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1208)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2287 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2287 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2287 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1212)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2294 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2294 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2294 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1216)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2300 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2300 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2300 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1220)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2307 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2307 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2307 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1224)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2313 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2313 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2313 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1228)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2320 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2320 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2320 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1232)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2326 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2326 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2326 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1236)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2333 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2333 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2333 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1240)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2339 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2339 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2339 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1244)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2346 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2346 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2346 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1248)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2352 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2352 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2352 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1252)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2359 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2359 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2359 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1256)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2365 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2365 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2365 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1260)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2372 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2372 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2372 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1264)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2378 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2378 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2378 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1268)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2385 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2385 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2385 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1272)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2391 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2391 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2391 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1276)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2398 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2398 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2398 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1280)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2404 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2404 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2404 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1284)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2411 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2411 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2411 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1288)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2417 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2417 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2417 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1292)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2424 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2424 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2424 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1296)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2430 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2430 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2430 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1300)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2437 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2437 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2437 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1304)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2443 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2443 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2443 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1308)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2450 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2450 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2450 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1312)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2456 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2456 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2456 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1316)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2463 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2463 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2463 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1320)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2469 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2469 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2469 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1324)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2476 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2476 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2476 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1328)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2482 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2482 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2482 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1332)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2489 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2489 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2489 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1336)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2495 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2495 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2495 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1340)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2502 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2502 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2502 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1344)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2508 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2508 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2508 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1348)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2515 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2515 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2515 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1352)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2521 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2521 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2521 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1356)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2528 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2528 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2528 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1360)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2534 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2534 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2534 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1364)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2541 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2541 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2541 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1368)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2547 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2547 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2547 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1372)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2554 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2554 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2554 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1376)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2560 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2560 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2560 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1380)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2567 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2567 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2567 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1384)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2573 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2573 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2573 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1388)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2580 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2580 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2580 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1392)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2586 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2586 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2586 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1396)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2593 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2593 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2593 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1400)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2600 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2600 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2600 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1404)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2606 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2606 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2606 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1408)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2613 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2613 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2613 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1412)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2619 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2619 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2619 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1416)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2626 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2626 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2626 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1420)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2632 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2632 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2632 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1424)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2639 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2639 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2639 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1428)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2645 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2645 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2645 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1432)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2652 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2652 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2652 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1436)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2658 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2658 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2658 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1440)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2665 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2665 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2665 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1444)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2671 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2671 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2671 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1448)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2678 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2678 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2678 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1452)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2684 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2684 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2684 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1456)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2691 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2691 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2691 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1460)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2697 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2697 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2697 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1464)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2704 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2704 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2704 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1468)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2710 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2710 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2710 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1472)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2717 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2717 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2717 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1476)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2723 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2723 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2723 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1480)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2730 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2730 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2730 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1484)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2736 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2736 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2736 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1488)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2743 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2743 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2743 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1492)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2749 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2749 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2749 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1496)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2756 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2756 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2756 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1500)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2762 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2762 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2762 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1504)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2769 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2769 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2769 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1508)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2775 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2775 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2775 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1512)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2782 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2782 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2782 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1516)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2788 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2788 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2788 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1520)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2795 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2795 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2795 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1524)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2801 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2801 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2801 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1528)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2808 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2808 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2808 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1532)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2814 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2814 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2814 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1536)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2821 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2821 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2821 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1540)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2827 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2827 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2827 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1544)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2834 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2834 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2834 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1548)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2840 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2840 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2840 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1552)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2847 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2847 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2847 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1556)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2853 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2853 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2853 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1560)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2860 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2860 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2860 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1564)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2866 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2866 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2866 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1568)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2873 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2873 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2873 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1572)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2879 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2879 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2879 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1576)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2886 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2886 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2886 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1580)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2892 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2892 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2892 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1584)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2899 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2899 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2899 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1588)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2905 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2905 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2905 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1592)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2912 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2912 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2912 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1596)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2919 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2919 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2919 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1600)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2925 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2925 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2925 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1604)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2932 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2932 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2932 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1608)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2938 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2938 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2938 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1612)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2945 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2945 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2945 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1616)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2951 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2951 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2951 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1620)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2958 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2958 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2958 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1624)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2964 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2964 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2964 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1628)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2971 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2971 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2971 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1632)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2977 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2977 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2977 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1636)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2984 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2984 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2984 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1640)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2990 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2990 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2990 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1644)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 2997 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 2997 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 2997 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1648)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3003 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3003 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3003 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1652)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3010 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3010 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3010 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1656)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3016 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3016 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3016 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1660)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3023 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3023 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3023 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1664)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3029 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3029 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3029 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1668)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3036 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3036 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3036 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1672)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3042 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3042 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3042 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1676)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3049 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3049 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3049 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1680)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3055 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3055 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3055 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1684)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3062 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3062 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3062 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1688)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3068 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3068 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3068 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1692)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3075 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3075 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3075 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1696)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3081 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3081 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3081 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1700)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3088 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3088 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3088 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1704)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3094 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3094 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3094 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1708)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3101 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3101 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3101 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1712)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3107 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3107 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3107 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1716)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3114 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3114 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3114 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1720)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3120 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3120 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3120 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1724)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3127 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3127 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3127 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1728)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3133 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3133 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3133 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1732)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3140 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3140 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3140 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1736)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3146 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3146 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3146 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1740)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3153 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3153 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3153 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1744)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3159 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3159 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3159 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1748)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3166 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3166 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3166 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1752)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3172 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3172 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3172 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1756)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3179 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3179 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3179 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1760)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3185 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3185 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3185 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1764)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3192 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3192 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3192 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1768)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3198 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3198 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3198 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1772)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3205 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3205 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3205 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1776)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3211 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3211 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3211 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1780)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3218 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3218 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3218 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1784)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3224 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3224 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3224 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1788)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3231 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3231 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3231 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1792)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3237 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3237 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3237 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1796)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3244 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3244 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3244 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1800)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3251 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3251 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3251 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1804)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3257 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3257 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3257 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1808)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3264 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3264 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3264 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1812)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3270 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3270 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3270 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1816)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3277 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3277 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3277 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1820)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3283 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3283 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3283 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1824)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3290 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3290 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3290 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1828)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3296 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3296 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3296 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1832)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3303 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3303 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3303 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1836)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3309 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3309 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3309 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1840)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3316 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3316 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3316 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1844)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3322 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3322 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3322 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1848)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3329 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3329 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3329 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1852)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3335 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3335 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3335 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1856)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3342 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3342 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3342 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1860)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3348 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3348 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3348 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1864)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3355 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3355 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3355 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1868)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3361 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3361 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3361 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1872)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3368 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3368 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3368 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1876)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3374 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3374 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3374 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1880)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3381 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3381 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3381 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1884)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3387 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3387 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3387 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1888)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3394 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3394 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3394 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1892)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3400 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3400 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3400 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1896)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3407 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3407 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3407 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1900)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3413 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3413 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3413 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1904)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3420 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3420 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3420 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1908)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3426 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3426 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3426 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1912)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3433 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3433 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3433 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1916)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3439 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3439 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3439 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1920)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3446 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3446 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3446 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1924)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3452 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3452 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3452 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1928)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3459 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3459 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3459 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1932)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3465 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3465 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3465 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1936)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3472 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3472 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3472 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1940)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3478 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3478 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3478 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1944)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3485 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3485 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3485 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1948)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3491 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3491 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3491 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1952)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3498 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3498 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3498 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1956)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3504 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3504 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3504 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1960)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3511 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3511 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3511 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1964)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3517 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3517 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3517 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1968)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3524 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3524 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3524 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1972)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3530 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3530 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3530 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1976)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3537 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3537 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3537 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1980)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3543 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3543 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3543 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1984)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3550 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3550 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3550 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1988)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3556 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3556 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3556 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1992)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3563 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3563 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3563 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 1996)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3570 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3570 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3570 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2000)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3576 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3576 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3576 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2004)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3583 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3583 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3583 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2008)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3589 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3589 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3589 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2012)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3596 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3596 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3596 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2016)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3602 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3602 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3602 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2020)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3609 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3609 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3609 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2024)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3615 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3615 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3615 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2028)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3622 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3622 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3622 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2032)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3628 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3628 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3628 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2036)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3635 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3635 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3635 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2040)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3641 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3641 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3641 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2044)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3648 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3648 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3648 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2048)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3654 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3654 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3654 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2052)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3661 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3661 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3661 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2056)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3667 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3667 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3667 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2060)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3674 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3674 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3674 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2064)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3680 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3680 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3680 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2068)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3687 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3687 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3687 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2072)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3693 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3693 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3693 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2076)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3700 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3700 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3700 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2080)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3706 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3706 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3706 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2084)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3713 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3713 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3713 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2088)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3719 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3719 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3719 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2092)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3726 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3726 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3726 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2096)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3732 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3732 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3732 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2100)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3739 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3739 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3739 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2104)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3745 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3745 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3745 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2108)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3752 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3752 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3752 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2112)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3758 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3758 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3758 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2116)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3765 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3765 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3765 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2120)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3771 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3771 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3771 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2124)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3778 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3778 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3778 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2128)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3784 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3784 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3784 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2132)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3791 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3791 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3791 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2136)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3797 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3797 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3797 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2140)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3804 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3804 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3804 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2144)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3810 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3810 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3810 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2148)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3817 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3817 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3817 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2152)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3823 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3823 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3823 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2156)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3830 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3830 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3830 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2160)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3836 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3836 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3836 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2164)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3843 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3843 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3843 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2168)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3849 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3849 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3849 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2172)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3856 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3856 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3856 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2176)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3862 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3862 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3862 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2180)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3869 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3869 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3869 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2184)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3875 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3875 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3875 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2188)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3882 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3882 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3882 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2192)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3888 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3888 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3888 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2196)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+960 3895 M
+5423 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+960 3895 M
+63 0 V
+5360 0 R
+-63 0 V
+stroke
+844 3895 M
+[ [(Times-Roman) 320.0 0.0 true true 0 ( 2200)]
+] -106.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+1864 640 M
+0 3255 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+1864 640 M
+0 63 V
+0 3192 R
+0 -63 V
+stroke
+1864 448 M
+[ [(Times-Roman) 320.0 0.0 true true 0 (1)]
+] -106.7 MCshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+2768 640 M
+0 3255 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+2768 640 M
+0 63 V
+0 3192 R
+0 -63 V
+stroke
+2768 448 M
+[ [(Times-Roman) 320.0 0.0 true true 0 (2)]
+] -106.7 MCshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+3672 640 M
+0 3255 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+3672 640 M
+0 63 V
+0 3192 R
+0 -63 V
+stroke
+3672 448 M
+[ [(Times-Roman) 320.0 0.0 true true 0 (3)]
+] -106.7 MCshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+4575 640 M
+0 3255 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+4575 640 M
+0 63 V
+0 3192 R
+0 -63 V
+stroke
+4575 448 M
+[ [(Times-Roman) 320.0 0.0 true true 0 (4)]
+] -106.7 MCshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4.500 UL
+LTa
+0.00 0.00 0.00 C
+5479 640 M
+0 3255 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+5479 640 M
+0 63 V
+0 3192 R
+0 -63 V
+stroke
+5479 448 M
+[ [(Times-Roman) 320.0 0.0 true true 0 (5)]
+] -106.7 MCshow
+/Times-Roman findfont 320 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+960 3895 N
+960 640 L
+5423 0 V
+0 3255 V
+-5423 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+-16 2267 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Times-Roman) 320.0 0.0 true true 0 (newtwork usage \(kb\))]
+] -106.7 MCshow
+grestore
+/Times-Roman findfont 320 scalefont setfont
+LTb
+LCb setrgbcolor
+3671 160 M
+[ [(Times-Roman) 320.0 0.0 true true 0 (No. of user)]
+] -106.7 MCshow
+/Times-Roman findfont 320 scalefont setfont
+LTb
+% Begin plot #1
+2.000 UL
+LTb
+0.50 0.00 0.00 C
+LCb setrgbcolor
+3056 4358 M
+[ [(Times-Roman) 230.0 0.0 true true 0 (Lowest Latency)]
+] -76.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+2.000 UL
+LTb
+0.50 0.00 0.00 C
+3194 4301 339 115 80 45 0 PatternFill
+3194 4301 N
+339 0 V
+0 114 V
+-339 0 V
+0 -114 V
+Z stroke
+2.000 UL
+LTb
+0.50 0.00 0.00 C
+1525 640 227 106 80 45 0 PatternFill
+1525 640 N
+0 105 V
+226 0 V
+0 -105 V
+-226 0 V
+Z stroke
+2429 640 227 522 80 45 0 PatternFill
+2429 640 N
+0 521 V
+226 0 V
+0 -521 V
+-226 0 V
+Z stroke
+3333 640 227 1757 80 45 0 PatternFill
+3333 640 N
+0 1756 V
+226 0 V
+0 -1756 V
+-226 0 V
+Z stroke
+4236 640 227 2592 80 45 0 PatternFill
+4236 640 N
+0 2591 V
+226 0 V
+0 -2591 V
+-226 0 V
+Z stroke
+5140 640 227 3231 80 45 0 PatternFill
+5140 640 N
+0 3230 V
+226 0 V
+0 -3230 V
+-226 0 V
+Z stroke
+3.500 UL
+1638 745 M
+-31 0 R
+62 0 V
+-62 0 R
+62 0 V
+873 416 R
+-31 0 R
+62 0 V
+-62 0 R
+62 0 V
+873 1235 R
+-31 0 R
+62 0 V
+-62 0 R
+62 0 V
+872 835 R
+-31 0 R
+62 0 V
+-62 0 R
+62 0 V
+873 639 R
+-31 0 R
+62 0 V
+-62 0 R
+62 0 V
+stroke
+LTb
+0.50 0.00 0.00 C
+% End plot #1
+% Begin plot #2
+2.000 UL
+LTb
+0.00 0.39 0.00 C
+LCb setrgbcolor
+3056 4128 M
+[ [(Times-Roman) 230.0 0.0 true true 0 (Lowest Distance)]
+] -76.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+2.000 UL
+LTb
+0.00 0.39 0.00 C
+3194 4071 339 115 40 45 2 PatternFill
+3194 4071 N
+339 0 V
+0 114 V
+-339 0 V
+0 -114 V
+Z stroke
+2.000 UL
+LTb
+0.00 0.39 0.00 C
+1751 640 227 83 40 45 2 PatternFill
+1751 640 N
+0 82 V
+226 0 V
+0 -82 V
+-226 0 V
+Z stroke
+2655 640 227 491 40 45 2 PatternFill
+2655 640 N
+0 490 V
+226 0 V
+0 -490 V
+-226 0 V
+Z stroke
+3559 640 226 1630 40 45 2 PatternFill
+3559 640 N
+0 1629 V
+225 0 V
+0 -1629 V
+-225 0 V
+Z stroke
+4462 640 227 2510 40 45 2 PatternFill
+4462 640 N
+0 2509 V
+226 0 V
+0 -2509 V
+-226 0 V
+Z stroke
+5366 640 227 3105 40 45 2 PatternFill
+5366 640 N
+0 3104 V
+226 0 V
+0 -3104 V
+-226 0 V
+Z stroke
+3.500 UL
+1864 722 M
+-31 0 R
+62 0 V
+-62 0 R
+62 0 V
+873 408 R
+-31 0 R
+62 0 V
+-62 0 R
+62 0 V
+873 1139 R
+-31 0 R
+62 0 V
+-62 0 R
+62 0 V
+872 880 R
+-31 0 R
+62 0 V
+-62 0 R
+62 0 V
+873 595 R
+-31 0 R
+62 0 V
+-62 0 R
+62 0 V
+stroke
+LTb
+0.00 0.39 0.00 C
+% End plot #2
+% Begin plot #3
+2.000 UL
+LTb
+0.00 0.00 1.00 C
+LCb setrgbcolor
+5741 4358 M
+[ [(Times-Roman) 230.0 0.0 true true 0 (ML-mFog)]
+] -76.7 MRshow
+/Times-Roman findfont 320 scalefont setfont
+2.000 UL
+LTb
+0.00 0.00 1.00 C
+5879 4301 339 115 80 -45 1 PatternFill
+5879 4301 N
+339 0 V
+0 114 V
+-339 0 V
+0 -114 V
+Z stroke
+2.000 UL
+LTb
+0.00 0.00 1.00 C
+1977 640 227 306 80 -45 1 PatternFill
+1977 640 N
+0 305 V
+226 0 V
+0 -305 V
+-226 0 V
+Z stroke
+2881 640 227 840 80 -45 1 PatternFill
+2881 640 N
+0 839 V
+226 0 V
+0 -839 V
+-226 0 V
+Z stroke
+3784 640 227 1793 80 -45 1 PatternFill
+3784 640 N
+0 1792 V
+226 0 V
+0 -1792 V
+-226 0 V
+Z stroke
+4688 640 227 2079 80 -45 1 PatternFill
+4688 640 N
+0 2078 V
+226 0 V
+0 -2078 V
+-226 0 V
+Z stroke
+5592 640 227 2711 80 -45 1 PatternFill
+5592 640 N
+0 2710 V
+226 0 V
+0 -2710 V
+-226 0 V
+Z stroke
+3.500 UL
+2090 945 M
+-31 0 R
+62 0 V
+-62 0 R
+62 0 V
+873 534 R
+-31 0 R
+62 0 V
+-62 0 R
+62 0 V
+872 953 R
+-31 0 R
+62 0 V
+-62 0 R
+62 0 V
+873 286 R
+-31 0 R
+62 0 V
+-62 0 R
+62 0 V
+873 632 R
+-31 0 R
+62 0 V
+-62 0 R
+62 0 V
+stroke
+LTb
+0.00 0.00 1.00 C
+% End plot #3
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+960 3895 N
+960 640 L
+5423 0 V
+0 3255 V
+-5423 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+stroke
+grestore
+end
+showpage
+%%Trailer
+%%DocumentFonts: Times-Roman
