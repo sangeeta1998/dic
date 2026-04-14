@@ -1,7 +1,4 @@
-"""
-RAI-Edge simulation result generator.
-Produces publication-quality PDF figures for the GlobeCom paper.
-"""
+
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
